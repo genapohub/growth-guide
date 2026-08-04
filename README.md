@@ -37,7 +37,6 @@ zip -r growth-guide.zip growth-guide/ ~/.workbuddy/skills/growth-guide
 ```bash
 git clone https://github.com/genapohub/growth-guide.git
 zip -r growth-guide.zip growth-guide/
-zip -r growth-guide.zip growth-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
 
