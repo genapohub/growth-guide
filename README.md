@@ -29,12 +29,14 @@
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/growth-guide.git ~/.workbuddy/skills/growth-guide
+git clone https://github.com/genapohub/growth-guide.git
+zip -r growth-guide.zip growth-guide/ ~/.workbuddy/skills/growth-guide
 ```
 
 **方式二：ZIP导入**
 ```bash
 git clone https://github.com/genapohub/growth-guide.git
+zip -r growth-guide.zip growth-guide/
 zip -r growth-guide.zip growth-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
@@ -44,6 +46,7 @@ zip -r growth-guide.zip growth-guide/
 **ZIP 导入**
 ```bash
 git clone https://github.com/genapohub/growth-guide.git
+zip -r growth-guide.zip growth-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `growth-guide.zip`。
 
@@ -51,10 +54,12 @@ git clone https://github.com/genapohub/growth-guide.git
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/growth-guide.git ~/.codex/skills/growth-guide
+git clone https://github.com/genapohub/growth-guide.git
+zip -r growth-guide.zip growth-guide/ ~/.codex/skills/growth-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/growth-guide.git ~/.cc-switch/skills/growth-guide
+git clone https://github.com/genapohub/growth-guide.git
+zip -r growth-guide.zip growth-guide/ ~/.cc-switch/skills/growth-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$growth-guide` 手动调用。
@@ -62,7 +67,8 @@ git clone https://github.com/genapohub/growth-guide.git ~/.cc-switch/skills/grow
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/growth-guide.git ~/.cursor/skills-cursor/growth-guide
+git clone https://github.com/genapohub/growth-guide.git
+zip -r growth-guide.zip growth-guide/ ~/.cursor/skills-cursor/growth-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$growth-guide` 手动调用。
